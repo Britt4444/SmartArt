@@ -26,6 +26,7 @@ export default function Index() {
       <>
         <Navigation sessionId={ setSession(user) }/>
         <main>
+          {/* figure out how to conditionally render carousel only on home page/the collection  */}
           <StyledEngineProvider injectFirst>
             <MyCarousel />
           </StyledEngineProvider>
